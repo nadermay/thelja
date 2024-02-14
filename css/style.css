@@ -6,9 +6,8 @@
 /* *the header beginne* */
 
 header {
-  background-color: #EEEBEC;
+  background-color: #eeebec;
   height: 120px;
-  
 }
 
 .containerListe {
@@ -95,7 +94,7 @@ header {
 /* *the end of section of new product* */
 
 .ourService {
-  background-color:#C8C10D;
+  background-color: #c8c10d;
   height: 150px;
   /* background-image: linear-gradient(
     to right top,
@@ -147,7 +146,7 @@ header {
 }
 
 .soicalmedia {
-  background-color: #CB3362;
+  background-color: #cb3362;
   height: 250px;
   /* background-image: linear-gradient(
     to right bottom,
@@ -208,57 +207,103 @@ header {
 
 /* *section about us  * */
 
-.containerAbout{
-display: flex;
-padding: 100px 200px;
-background-color: white;
+.containerAbout {
+  display: flex;
+  padding: 100px 200px;
+  background-color: white;
 }
 
 .community {
   text-align: center;
-  background-color: #EFEDEE;
+  background-color: #efedee;
   margin-right: 60px;
   border-radius: 3px;
   padding: 20px;
   font-family: sans-serif;
   line-height: 3rem;
-  color: #7A6666;
+  color: #7a6666;
   width: 500px;
-  
-  }
+}
 .community a {
-  color: #7A6666;
+  color: #7a6666;
 }
 
 .community a:hover {
   color: #bc3d3d;
 }
-  .community span{
-    color:#CB3362 ;
-    font-size: xx-large;
-    line-height: 4rem;
-  }
+.community span {
+  color: #cb3362;
+  font-size: xx-large;
+  line-height: 4rem;
+}
 
-  .temples{
-width: 100%;
-line-height: 2rem;
-color: #7A6666;
-  }
+.temples {
+  width: 100%;
+  line-height: 2rem;
+  color: #7a6666;
+}
 
 .temples h2 {
-  color: #CB3362;
+  color: #cb3362;
   font-family: sans-serif;
   padding: 30px 0;
 }
 
-  .temples  a {
-    color: #7A6666;
-    font-family: sans-serif;
-
-  }
-  .temples  a:hover {
-    color: #CB3362;
-  }
+.temples a {
+  color: #7a6666;
+  font-family: sans-serif;
+}
+.temples a:hover {
+  color: #cb3362;
+}
 .temples p {
   font-weight: 500;
+}
+
+/* ! the end of the section */
+
+/* * the blog page start * */
+
+.blogcontainer {
+  display: flex;
+  padding: 200px 300px;
+  text-align: center;
+}
+
+
+
+.newfood {
+  padding: 0 50px 0 100px;
+  width: 350px;
+}
+.newfood img {
+  padding: 20px;
+}
+
+.newfood h2{
+  color: #D56A67;
+  font-family: sans-serif;
+}
+
+.newfood h6{
+  color: #7A6666;
+  padding: 5px;
+}
+
+.newfood p {
+  color: #7A6666;
+  font-family: sans-serif;
+  line-height: 1.5rem;
+}
+
+.btnRead{
+  text-align: center;
+  border: solid #7A6666 2px;
+ 
+}
+
+.recet {
+  background: #EFEDEE;
+  height: 700px;
+  text-align: center;
 }
