@@ -264,46 +264,14 @@ header {
 
 /* * the blog page start * */
 
-.blogcontainer {
+.navBar{
+  height: 100px;
+  text-align: center;
+  background-color:#C8C10D ;
+  font-family: sans-serif;
   display: flex;
-  padding: 200px 300px;
-  text-align: center;
-}
-
-
-
-.newfood {
-  padding: 0 50px 0 100px;
-  width: 350px;
-}
-.newfood img {
-  padding: 20px;
-}
-
-.newfood h2{
-  color: #D56A67;
-  font-family: sans-serif;
-}
-
-.newfood h6{
-  color: #7A6666;
-  padding: 5px;
-}
-
-.newfood p {
-  color: #7A6666;
-  font-family: sans-serif;
-  line-height: 1.5rem;
-}
-
-.btnRead{
-  text-align: center;
-  border: solid #7A6666 2px;
- 
-}
-
-.recet {
-  background: #EFEDEE;
-  height: 700px;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  
 }
