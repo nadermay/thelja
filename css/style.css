@@ -172,6 +172,7 @@ header {
 
 .socialmedioaIcons a {
   padding: 30px 50px;
+
 }
 
 .soicalmedia p {
@@ -343,6 +344,98 @@ h6 {
   text-align: center;
   line-height: 1.5rem;
   color: #7d768b;
+
   font-family: sans-serif;
   padding: 10px;
+}
+/* ! the end of blog */
+
+/* * the start of contact * */
+
+.mapcontainer {
+  background: url(../image/map.jpg) center center / cover;
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.minimap {
+  height: 125px;
+  background: white;
+  opacity: 0.7;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: sans-serif;
+  width: 700px;
+}
+
+.mapcontainer div img {
+  background: white;
+  opacity: 0.7;
+  height: 75px;
+  padding:50px 30px 55px 30px;
+  
+}
+
+.formailer{
+  padding: 50px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.inp input {
+  height: 30px;
+  width: 600px;
+  margin: 5px 0;
+  color: #7a6666;
+}
+
+.inp textarea{
+  width: 600px;
+  color: #7d768b;
+  height: 250px;
+}
+
+.inp h2 {
+  color: #bc3d3d;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+button {
+  width: 100px;
+  height: 30px;
+  margin-left:  250px; ;
+  margin-top: 20px;
+  color: #7a6666;
+  background-color: white;
+  border: #7d768b solid 1px;
+}
+button:hover{
+  background-color: #c8c10d;
+  color: white;
+}
+.fromYou {
+  height: 250px;
+  width: 200px;
+  margin-left: 30px;
+  padding: 30px;
+  font-family: sans-serif;
+  color: #7d768b;
+  background-color: #EFEDEE;
+text-align: center;
+}
+
+.fromYou h2 {
+  color: #bc3d3d;
+  padding-bottom: 10px;
+  line-height: 1.5rem;
+}
+
+.red{
+  color: #bc3d3d;
 }
